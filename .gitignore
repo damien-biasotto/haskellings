@@ -1,0 +1,9 @@
+.stack-work/
+*~
+*.swp
+generated_files/
+.config/
+tests/test_gen/
+config.yaml
+result
+haskellings.cabal
