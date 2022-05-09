@@ -2,7 +2,7 @@
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    haskell.compiler.ghc8107
+    haskell.compiler.${compiler}
     which
     (import ./default.nix { inherit pkgs compiler; })
   ];
